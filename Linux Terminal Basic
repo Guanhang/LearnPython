@@ -67,3 +67,11 @@ grep -v 匹配不包涵的
 grep -i 忽略大小写
 grep a 123.txt
 
+echo 重复文字
+echo 123
+
+重定向内容
+> 输出且覆盖
+>> 追加内容
+echo tree > 123.txt
+echo ls >> 123.txt
