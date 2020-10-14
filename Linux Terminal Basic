@@ -75,3 +75,5 @@ echo 123
 >> 追加内容
 echo tree > 123.txt
 echo ls >> 123.txt
+
+管道 
