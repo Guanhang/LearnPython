@@ -65,3 +65,5 @@ grep 文本搜索
 grep -n 匹配包涵的行及行号
 grep -v 匹配不包涵的
 grep -i 忽略大小写
+grep a 123.txt
+
