@@ -49,4 +49,14 @@ mv /home/13.txt /home/abc
 
 mv /home/123.txt 321.txt 重命名
 
-cat 查看，创建，合并，追加文件内容 concatenate
+cat 查看，创建，合并，追加文件内容 concatenate 一次显示所有内容
+cat -b 显示内容行数
+cat -n 显示所有行数
+
+more 查看文件内容 分屏显示，适合显示内容较多的文件
+空格显示下一屏
+回车向下一行
+b 上一屏
+f 下一屏
+q 退出
+／word 查找字符
