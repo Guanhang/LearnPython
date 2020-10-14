@@ -7,7 +7,7 @@ rm  1*1.txt
 rm 1?3.txt
 
 tab 补全名称
-
+~ home
 
 ls 列表 list
 ls －a 列出所有，包括隐藏文件
@@ -76,4 +76,6 @@ echo 123
 echo tree > 123.txt
 echo ls >> 123.txt
 
-管道 
+管道 | 上一个命令的输出作为下一个命令输入
+ls -lha | more 列出所有2文件并用more输出
+
