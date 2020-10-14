@@ -60,3 +60,8 @@ b 上一屏
 f 下一屏
 q 退出
 ／word 查找字符
+
+grep 文本搜索
+grep -n 匹配包涵的行及行号
+grep -v 匹配不包涵的
+grep -i 忽略大小写
