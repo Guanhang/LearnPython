@@ -77,4 +77,24 @@ echo ls >> 123.txt
 
 管道 | 上一个命令的输出作为下一个命令输入
 ls -lha | more 列出所有2文件并用more输出
+ipconfig | grep imac
+
+ssh [-p] user@remote 端口 用户名 ip地址
+.ssh 目录下 
+ssh-keygen 生成密钥，2密码登入
+ssh-copy-id 到目标服务器地址IP
+远程服务器别名
+touch config 创建config
+config gedit 编辑config
+Host 别名
+    HostName IP地址
+    User 用户名
+    Port 22
+
+scp secure copy 远程拷贝文件
+scp 1.txt Mac:Dsktop 本地到服务器
+scp Mac:Dsktop/1.txt 1.txt 服务器到本地
+
+
+
 
