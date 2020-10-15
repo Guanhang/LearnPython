@@ -104,15 +104,23 @@ su subtitute user 超级用户
 sudo
 groupadd 添加组
 groupdel 删除组
-useradd -m -g m组 g名
 
 useradd 添加用户
 useradd -m 自动创建home
 useradd -g 2组，否则自动创建同名的组
+useradd -r 自动删除home目录
+useradd -m abc
 
 passwd 添加密码
+passwd abc
 
+id 显示用户名 显示/etc/passwd文件
+id abc
+用户名：密码：用户号：组号：用户全名：／home／abc
+abc:x:1001:1001::/home/abc
 
+who 查看当前登录的用户列表
+whoami 查看当前登录的用户
 
-
+usermod 
 
