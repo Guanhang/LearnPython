@@ -95,6 +95,24 @@ scp secure copy 远程拷贝文件
 scp 1.txt Mac:Dsktop 本地到服务器
 scp Mac:Dsktop/1.txt 1.txt 服务器到本地
 
+chmod 修改权限 rwx 读写执行 +/- 添加／去除权限
+chgrp change group 修改组
+chgrp －r 递归修改组
+chgrp －r 123
+
+su subtitute user 超级用户
+sudo
+groupadd 添加组
+groupdel 删除组
+useradd -m -g m组 g名
+
+useradd 添加用户
+useradd -m 自动创建home
+useradd -g 2组，否则自动创建同名的组
+
+passwd 添加密码
+
+
 
 
 
