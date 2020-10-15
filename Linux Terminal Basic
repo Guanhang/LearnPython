@@ -122,5 +122,8 @@ abc:x:1001:1001::/home/abc
 who 查看当前登录的用户列表
 whoami 查看当前登录的用户
 
-usermod 
+usermod 修改用户
+usermod -g 组 用户名 修改用户用主组
+usermod -G 组 用户名 修改用户的附加组
+sudo usermod -G sudo abc 给用户添加sudo权限
 
