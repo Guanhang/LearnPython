@@ -99,6 +99,10 @@ chmod 修改权限 rwx 读写执行 +/- 添加／去除权限
 chgrp change group 修改组
 chgrp －r 递归修改组
 chgrp －r 123
+R W X
+4 2 1  组合数字修改权限
+
+
 
 su subtitute user 超级用户
 sudo
@@ -127,3 +131,33 @@ usermod -g 组 用户名 修改用户用主组
 usermod -G 组 用户名 修改用户的附加组
 sudo usermod -G sudo abc 给用户添加sudo权限
 
+which 查看执行的命令所在位置
+
+date 查看日期
+
+cal 查看日历
+cal -y 查看年历
+
+df diskfree 磁盘剩余空间
+df -h 
+
+du diskusage 磁盘使用空间
+du -h
+
+ps precess status 查看进程
+ps aux 查看进程详细状况
+
+top 动态显示进程
+
+kill 杀死进程
+kill+PID 
+kill -9 强制终止
+
+find 查找文件
+find /home/123 -"name"
+find 路径 文件名
+
+ln -s 快捷方式 软链接
+ln -s 绝对路径 名字
+
+ln 硬链接
