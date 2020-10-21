@@ -38,7 +38,7 @@ height = 1.75
 weight = 75.0
 
 #  type 变量类型
-“”“
+"""
 数字型
 整形（int）12
 浮点（float）12.1
