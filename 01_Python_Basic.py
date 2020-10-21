@@ -31,3 +31,10 @@ weight = 3
 Total = Apple * weight
 print (Total)
 
+name = "xiaomin"
+age = 18
+gender = "male"
+height = 1.75
+weight = 75.0
+
+
