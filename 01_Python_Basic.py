@@ -49,6 +49,6 @@ weight = 75.0
 列表
 元组
 字典
-”“”
-type （gender）
+"""
 
+print (Apple + weight)
