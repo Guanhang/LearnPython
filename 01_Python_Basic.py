@@ -26,5 +26,8 @@ print(10 + 10)
 
 #  变量定义
 #  变量名 = "值"
-Abc = "123"
+Apple = 2
+weight = 3
+Total = Apple * weight
+print (Total)
 
