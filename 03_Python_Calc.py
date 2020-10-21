@@ -16,4 +16,4 @@ print (total)
 apple = float(input("apple:"))
 weight = float(input("weight:"))
 total = apple * weight
-print ("apple %.08f $/KG, weight %.01f kg, total %.01f"(apple, weight, total))
+print ("apple %.02f $/KG, weight %.02f kg, total %.02f" % (apple, weight, total))
