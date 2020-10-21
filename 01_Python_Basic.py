@@ -37,4 +37,18 @@ gender = "male"
 height = 1.75
 weight = 75.0
 
+#  type 变量类型
+“”“
+数字型
+整形（int）12
+浮点（float）12.1
+布尔（bool）True, False
+复数（complex）
+非数字型
+字符串
+列表
+元组
+字典
+”“”
+type （gender）
 
