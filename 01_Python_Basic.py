@@ -52,3 +52,5 @@ weight = 75.0
 """
 
 print (Apple + weight)
+
+type ()
