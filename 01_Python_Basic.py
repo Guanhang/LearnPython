@@ -53,4 +53,5 @@ weight = 75.0
 
 print (Apple + weight)
 
-type ()
+print (type(123))
+
