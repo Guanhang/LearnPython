@@ -15,4 +15,4 @@ age = 18
 
 if age >= 18:
     print("Welcome to the disco")
-    else
+else:print("Go home!!!")
