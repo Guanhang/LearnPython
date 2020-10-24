@@ -13,9 +13,11 @@ if 要判断的条件:
 
 
 age = 18
-age = float(input(print("Age:")))
+age = int(input(print("Your Age:")))
 
 if age >= 18:
     print("Welcome to the disco")
 else:
     print("Go home!!!")
+
+print("Disco Guan")
