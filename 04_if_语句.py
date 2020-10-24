@@ -17,4 +17,5 @@ age = float(input(print("Age:")))
 
 if age >= 18:
     print("Welcome to the disco")
-else:print("Go home!!!")
+else:
+    print("Go home!!!")
