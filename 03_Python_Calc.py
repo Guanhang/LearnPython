@@ -15,3 +15,6 @@ apple = float(input("apple:"))
 weight = float(input("weight:"))
 total = apple * weight
 print ("apple %.02f $/KG, weight %.02f kg, total %.02f" % (apple, weight, total))
+
+scale = 0.25
+print("data scale is %.2f%%" % (scale * 100))
