@@ -35,7 +35,7 @@ print("are you employee? yes to conform, dont enter anything if your are not!")
 
 employee = bool(input(print("?")))
 
-if not age:
+if not employee:
     print("Go home")
 else:
     print("Wellcome!")
