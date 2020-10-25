@@ -11,8 +11,6 @@ if 要判断的条件:
 <= 检查左操作数的值是否小于或等于右操作数，如果是，则为True
 """
 
-
-age = 18
 age = int(input(print("Your Age:")))
 
 if age >= 18:
