@@ -30,3 +30,13 @@ if age > 18 or height > 180:
     print("You can Enter")
 else:
     print("Go Home")
+
+# 布尔变量
+
+True = print("Enter Quickly")
+
+if not age > 18:
+    Enter = True
+    print(Enter)
+else:
+    print("Go home")
