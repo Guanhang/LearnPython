@@ -33,6 +33,8 @@ else:
 
 # 布尔变量
 
+is_employee = True
+
 True = print("Enter Quickly")
 
 if not age > 18:
