@@ -21,3 +21,10 @@ else:
     print("Go home!!!")
 
 print("Disco Guan")
+
+# or 判断
+
+if age > 18 or age < 60:
+    print("You can Enter")
+else:
+    print("Go Home")
