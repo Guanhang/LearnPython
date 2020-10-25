@@ -33,7 +33,9 @@ else:
 
 # 布尔变量
 
-age = bool(input(print("Your age is under 18 ?")))
+employee = bool(input(print("?")))
+
+print(if )
 if not age:
     print("Go home")
 else:
