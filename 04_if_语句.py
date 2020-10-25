@@ -24,7 +24,9 @@ print("Disco Guan")
 
 # or 判断
 
-if age > 18 or age < 60:
+height = int(input(print("Your height:")))
+
+if age > 18 or height < 180:
     print("You can Enter")
 else:
     print("Go Home")
