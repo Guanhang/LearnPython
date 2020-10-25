@@ -33,12 +33,5 @@ else:
 
 # 布尔变量
 
-is_employee = True
+is_employee = input
 
-True = print("Enter Quickly")
-
-if not age > 18:
-    Enter = True
-    print(Enter)
-else:
-    print("Go home")
