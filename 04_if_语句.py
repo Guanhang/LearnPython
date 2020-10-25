@@ -31,7 +31,7 @@ else:
 
 # 布尔变量
 
-print("are you employee? yes to conform, if you`re not dont enter anything!")
+print("are you employee? yes to conform, if you're not,than don't enter anything!")
 
 employee = bool(input(print("?")))
 
