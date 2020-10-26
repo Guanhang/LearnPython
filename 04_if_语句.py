@@ -37,7 +37,11 @@ employee = bool(input(print("?")))
 
 if not employee:
     print("Go home")
-elif age > 18:
-    print("Are you adult")
+
+    if employee == False:
+        print("False")
+    elif age > 18:
+        print("Are you adult")
 else:
     print("Wellcome!")
+
